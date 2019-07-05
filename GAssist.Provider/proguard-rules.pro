@@ -1,0 +1,5 @@
+-dontobfuscate
+
+-keepclassmembers class * {
+    <init>(...);
+}

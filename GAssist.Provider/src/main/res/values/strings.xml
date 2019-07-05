@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GAssist.net</string>
+    <string name="hello_world">Hello Accessory!</string>
+    <string name="ConnectionEstablishedMsg">Service Connection with GAssist has been established.</string>
+    <string name="ConnectionTerminateddMsg">Service Connection with GAssist has been terminated.</string>
+    <string name="ConnectionAlreadyExist">Service Connection has already been existed!!!</string>
+    <string name="ConnectionAlreadyDisconnected">Service Connection has already been disconnected!!!</string>
+    <string name="ConnectionFailure">Service Connection Failure</string>
+    <string name="NoPeersFound">No peers have been found!!!</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="buttonSend">Send</string>
+    <string name="ConnectionAcceptedMsg">Service Connection from GAssist has been accepted.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="refresh_log">Refresh log</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome to GAssist.Net companion app. \n
+    This wizard will guide you through the necessary setup. Let\'s start with granting the app a necessary permisions.\n
+    \n\nClick check permissions button to begin.</string>
+    <string name="authentication">Finally authenticate with Google to get the Credentials</string>
+    <string name="auth_success">Authentication successful</string>
+    <string name="auth_error">Error authenticating to Google</string>
+    <string name="credentials_saved">Credentials saved</string>
+    <string name="error_save_credentials">Error saving credentials</string>
+    <string name="device_configured">Device configured</string>
+    <string name="failed_configure">Failed to configure device</string>
+</resources>

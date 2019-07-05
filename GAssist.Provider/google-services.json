@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "466061553928",
+    "firebase_url": "https://gassist-ca60f.firebaseio.com",
+    "project_id": "gassist-ca60f",
+    "storage_bucket": "gassist-ca60f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466061553928:android:6c92c2071a0fb367",
+        "android_client_info": {
+          "package_name": "com.cybernetic87.GAssist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466061553928-quush83gqe7g81lsln3c9g5jutfbpje6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKEW44vYB8ZM_CAkh4WFcmcNucNsSrJmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466061553928-3lskapgjecbnc90vjntlpfrs0mosv0dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\cyber\\repos_new\\GAssist_companion\\GAssist.Provider\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\64628dc5a83d14c6b2ac094edd5bec63\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\55eb17f53b8bf46b97bfd40c1d72e953\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\58d719e287541bed22e9d020cd13d67c\\appcompat-1.1.0-rc01\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\8005cfb51b99c40e9ed705d998730085\\appcompat-1.1.0-rc01\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

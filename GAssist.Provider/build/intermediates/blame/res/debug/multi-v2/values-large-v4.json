@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\cyber\\repos_new\\GAssist_companion\\GAssist.Provider\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\58d719e287541bed22e9d020cd13d67c\\appcompat-1.1.0-rc01\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\8005cfb51b99c40e9ed705d998730085\\appcompat-1.1.0-rc01\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\467bce1c415cbe8d3fd178da979e131b\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\5626b204df17268cc8c1647a42511124\\material-1.0.0\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

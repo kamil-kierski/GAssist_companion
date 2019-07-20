@@ -24,7 +24,6 @@ import com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets;
 import com.google.api.client.json.JsonFactory;
 import com.google.api.client.json.jackson2.JacksonFactory;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Objects;
@@ -40,7 +39,7 @@ public class AuthenticateFragment extends Fragment {
     private TextView textViewCredentialsStatus;
     private TextView textViewDeviceStatus;
 
-    private String pathSecrets;
+    private Uri secretsUri;
     private Button buttonDone;
 
     public AuthenticateFragment() {
@@ -72,7 +71,7 @@ public class AuthenticateFragment extends Fragment {
         Button buttonAuthenticate = authenticateView.findViewById(R.id.buttonAuthenticate);
         buttonAuthenticate.setOnClickListener(view -> {
             if (getArguments() != null) {
-                pathSecrets = getArguments().getString("secretsPath");
+                secretsUri = Uri.parse(getArguments().getString("secretsUri"));
                 enterCodePrompt();
 //                GetCredentials(pathSecrets);
             }
@@ -85,7 +84,7 @@ public class AuthenticateFragment extends Fragment {
 
         GoogleClientSecrets clientSecrets = null;
         try {
-            clientSecrets = GoogleClientSecrets.load(jsonFactory, new InputStreamReader(new FileInputStream(pathSecrets)));
+            clientSecrets = GoogleClientSecrets.load(jsonFactory, new InputStreamReader(getActivity().getContentResolver().openInputStream(secretsUri)));
         } catch (IOException e) {
             e.printStackTrace();
         }

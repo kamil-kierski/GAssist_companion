@@ -49,6 +49,7 @@ public class MainActivity extends FragmentActivity
     private final BluetoothAdapter mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
     private ServiceConnection mConnection;
     private ProviderService providerService;
+    private NavHostFragment navHost;
 
 //    public void updateTextView(final String str) {
 //        mTextView.setText(str);
@@ -102,27 +103,6 @@ public class MainActivity extends FragmentActivity
             MainActivity.this.unbindService(mConnection);
     }
 
-//    public void refreshLog(View view) {
-//        try {
-//            Process process = Runtime.getRuntime().exec("logcat EmbeddedAssistant:W MainActivity:W ProviderService:V -d");
-//            BufferedReader bufferedReader = new BufferedReader(
-//                    new InputStreamReader(process.getInputStream()));
-//
-//            StringBuilder log = new StringBuilder();
-//            String line;
-//            while ((line = bufferedReader.readLine()) != null) {
-//                log.append(line + "\n");
-//            }
-//            TextView tv = findViewById(R.id.logTextView);
-//            tv.setTextIsSelectable(true);
-//            tv.setFocusable(true);
-//            tv.setFocusableInTouchMode(true);
-//            tv.setText(log.toString());
-//        } catch (IOException e) {
-//            // Handle Exception
-//        }
-//    }
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -130,7 +110,7 @@ public class MainActivity extends FragmentActivity
         setContentView(R.layout.activity_main);
 
 
-        NavHostFragment navHost = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
+        navHost = (NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment);
         NavController navController = Objects.requireNonNull(navHost).getNavController();
 
         NavInflater navInflater = navController.getNavInflater();
@@ -145,13 +125,16 @@ public class MainActivity extends FragmentActivity
         }
 
         navController.setGraph(graph);
-        //mTextView = findViewById(R.id.tvStatus);
-        //mImageView = findViewById(R.id.imageView);
-        //updateTextView("Disconnected");
         BindToService();
 
 
     }
+
+//    public void showBadge(boolean visible){
+//        if(!navHost.isAdded()) return;
+//        MainFragment mainFragment = (MainFragment) navHost.getChildFragmentManager().getPrimaryNavigationFragment();
+//        mainFragment.showBadge(visible);
+//    }
 
 
     @Override
@@ -161,7 +144,7 @@ public class MainActivity extends FragmentActivity
             if (resultCode == RESULT_CANCELED) {
                 Toast.makeText(MainActivity.this, "Bluetooth must be enabled to use this app", Toast.LENGTH_LONG).show();
                 closeApp();
-            } else {
+            } else if (resultCode == RESULT_OK) {
                 startService();
             }
         }

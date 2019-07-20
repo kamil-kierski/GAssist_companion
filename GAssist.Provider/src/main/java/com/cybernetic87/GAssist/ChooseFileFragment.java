@@ -1,6 +1,9 @@
 package com.cybernetic87.GAssist;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.text.SpannableString;
 import android.view.LayoutInflater;
@@ -14,19 +17,13 @@ import android.widget.Toast;
 import androidx.fragment.app.Fragment;
 import androidx.navigation.Navigation;
 
-import com.developer.filepicker.model.DialogConfigs;
-import com.developer.filepicker.model.DialogProperties;
-import com.developer.filepicker.view.FilePickerDialog;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.JsonSyntaxException;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.io.File;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.Objects;
+import java.io.InputStreamReader;
 
 public class ChooseFileFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
@@ -37,7 +34,7 @@ public class ChooseFileFragment extends Fragment {
     private ImageView imageFileStatus;
     private TextView textFileStatus;
     private Button mButtonNext;
-    private String secretsPath;
+    private Uri secretsUri;
 
     public ChooseFileFragment() {
         // Required empty public constructor
@@ -75,7 +72,7 @@ public class ChooseFileFragment extends Fragment {
         mButtonNext = chooseFileView.findViewById(R.id.buttonDone);
         mButtonNext.setOnClickListener(view -> {
             Bundle bundle = new Bundle();
-            bundle.putString("secretsPath", secretsPath);
+            bundle.putString("secretsUri", secretsUri.toString());
 
             Navigation.findNavController(chooseFileView).navigate(R.id.action_chooseFile_to_authenticateFragment, bundle);
         });
@@ -101,21 +98,20 @@ public class ChooseFileFragment extends Fragment {
     }
 
     private void PickSecretsFile() {
-        DialogProperties properties = new DialogProperties();
-        properties.selection_mode = DialogConfigs.SINGLE_MODE;
-        properties.selection_type = DialogConfigs.FILE_SELECT;
-        properties.root = new File(DialogConfigs.STORAGE_DIR);
-        properties.error_dir = new File(DialogConfigs.DEFAULT_DIR);
-        properties.offset = new File(DialogConfigs.DEFAULT_DIR);
-        properties.extensions = new String[]{"json"};
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+        intent.setType("*/*");
 
-        FilePickerDialog dialog = new FilePickerDialog(getContext(), properties);
-        dialog.setTitle("Select the secrets.json file:");
-        dialog.show();
+        startActivityForResult(intent, 42);
+    }
 
-        dialog.setDialogSelectionListener(files -> {
-            String pathSecrets = files[0];
-            if (ValidateJsonFile(pathSecrets, "installed")) {
+    @Override
+    public void onActivityResult(int requestCode, int resultCode,
+                                 Intent resultData) {
+
+        if (requestCode == 42 && resultCode == Activity.RESULT_OK) {
+
+            if (ValidateJsonFile(resultData.getData(), "installed")) {
                 textFileStatus.setText("File loaded successfully");
                 imageFileStatus.setImageResource(R.mipmap.ic_tick_green);
                 mButtonNext.setEnabled(true);
@@ -123,37 +119,33 @@ public class ChooseFileFragment extends Fragment {
                 textFileStatus.setText("File not loaded");
                 imageFileStatus.setImageResource(R.mipmap.ic_x_red);
             }
-        });
 
+        }
     }
 
-    private boolean ValidateJsonFile(String path, String property) {
-        String text = null;
-        JSONObject obj;
-        if (new File(path).exists()) {
-            try {
-                text = new String(Files.readAllBytes(Paths.get(path)), StandardCharsets.UTF_8);
-            } catch (IOException e) {
-                Toast.makeText(getContext(), "Wrong path", Toast.LENGTH_LONG).show();
-                e.printStackTrace();
-            }
-
-            try {
-                obj = new JSONObject(Objects.requireNonNull(text));
-            } catch (JSONException e) {
-                Toast.makeText(getContext(), "Not a valid JSON file", Toast.LENGTH_LONG).show();
-                return false;
-            }
-
-            if (!obj.has(property)) {
-                String message = String.format("Wrong file: %s", new File(path).getName());
-                Toast.makeText(getContext(), message, Toast.LENGTH_LONG).show();
-                return false;
-            }
-            secretsPath = path;
-            return true;
+    private boolean ValidateJsonFile(Uri uri, String property) {
+        if (uri == null) return false;
+        JsonObject json;
+        try {
+            JsonElement element = new JsonParser().parse(
+                    new InputStreamReader(getActivity().getContentResolver().openInputStream(uri))
+            );
+            json = element.getAsJsonObject();
+        } catch (JsonSyntaxException e) {
+            Toast.makeText(getContext(), "Not a valid JSON file", Toast.LENGTH_LONG).show();
+            return false;
+        } catch (IOException e) {
+            Toast.makeText(getContext(), "Can't read the file", Toast.LENGTH_LONG).show();
+            return false;
         }
-        return false;
+
+        if (!json.has(property)) {
+            String message = String.format("Wrong file: %s", uri.getLastPathSegment());
+            Toast.makeText(getContext(), message, Toast.LENGTH_LONG).show();
+            return false;
+        }
+        this.secretsUri = uri;
+        return true;
     }
 
     /**

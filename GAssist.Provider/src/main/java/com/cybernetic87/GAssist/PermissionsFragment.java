@@ -2,7 +2,11 @@ package com.cybernetic87.GAssist;
 
 import android.Manifest;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.os.PowerManager;
+import android.provider.Settings;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,11 +24,16 @@ import com.gun0912.tedpermission.TedPermission;
 import java.util.List;
 import java.util.Objects;
 
+import static android.content.Context.POWER_SERVICE;
+
 public class PermissionsFragment extends Fragment {
 
     private Button mButtonNext;
     private ImageView mImagePermissionStatus;
     private TextView mTextViewPermissionStatus;
+
+    private ImageView mImageBatteryStatus;
+    private TextView mTextViewBatteryStatus;
 
     private final PermissionListener permissionlistener = new PermissionListener() {
         @Override
@@ -71,19 +80,35 @@ public class PermissionsFragment extends Fragment {
                     .check();
         });
 
+        Button mButtonRequestBattery = permissionView.findViewById(R.id.button2);
+        mButtonRequestBattery.setOnClickListener(view -> requestIgnoreBatteryOptimization());
+
         mImagePermissionStatus = permissionView.findViewById(R.id.imagePermissionStatus);
         mTextViewPermissionStatus = permissionView.findViewById(R.id.textViewPermissionStatus);
+
+        mImageBatteryStatus = permissionView.findViewById(R.id.imageBatteryStatus);
+        mTextViewBatteryStatus= permissionView.findViewById(R.id.textViewBatteryStatus);
         return permissionView;
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-
     }
 
     @Override
     public void onDetach() {
         super.onDetach();
     }
+
+    private void requestIgnoreBatteryOptimization(){
+        PowerManager pm = (PowerManager) getContext().getSystemService(POWER_SERVICE);
+        String packageName = getContext().getPackageName();
+        if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+            Intent myIntent = new Intent();
+            myIntent.setAction(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+            startActivity(myIntent);
+        }
+    }
+
 }

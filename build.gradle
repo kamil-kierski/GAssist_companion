@@ -5,7 +5,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.0-alpha04'
+        classpath 'com.android.tools.build:gradle:3.6.0-alpha05'
         classpath "com.google.protobuf:protobuf-gradle-plugin:0.8.9"
         classpath 'com.google.gms:google-services:4.3.0'
         classpath 'com.netflix.nebula:gradle-lint-plugin:11.5.0'

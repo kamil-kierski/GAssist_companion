@@ -8,7 +8,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="AutomaticModuleUnloader">
@@ -95,7 +95,605 @@
     <last-search-timestamp>1561160538649</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63d82c24-3aae-4344-a004-b37b02f1fbe6" name="Default Changelist" comment="" />
+    <list default="true" id="63d82c24-3aae-4344-a004-b37b02f1fbe6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_api_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_auth_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_okhttp_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_22_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jsoup_jsoup_1_12_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_cyber_repos_new_Consumer_GAssist_Provider_libs_accessory_v2_6_1_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_cyber_repos_new_Consumer_GAssist_Provider_libs_accessory_v2_6_1_jar_unspecified_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_cyber_repos_new_Consumer_GAssist_Provider_libs_sdk_v1_0_0_jar_unspecified_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle____local_aars___C__Users_cyber_repos_new_Consumer_GAssist_Provider_libs_sdk_v1_0_0_jar_unspecified_jar2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_beta1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_0_beta2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_beta1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_0_beta2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_1_0_beta02_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_2_1_0_alpha06_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_1_0_beta02_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_2_1_0_alpha06_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_1_0_beta02_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_2_1_0_alpha06_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_1_0_alpha06_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_2_1_0_beta02_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_rc01_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_TutorialsAndroid_FilePicker_v4_0_19_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_TutorialsAndroid_FilePicker_v4_0_19_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_impl_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_places_placereport_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_api_client_google_api_client_1_30_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_credentials_0_16_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auth_google_auth_library_oauth2_http_0_16_1_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_annotations_1_6_3_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_19_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_18_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_1_3_2_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_20030203_000550_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__gun0912_ted_tedpermission_2_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__gun0912_ted_tedpermission_2_2_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_api_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_api_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_auth_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_auth_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_context_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_core_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_okhttp_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_okhttp_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_protobuf_lite_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_21_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_grpc_grpc_stub_1_22_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_msgpack_msgpack_core_0_8_17_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/GAssist.Provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/GAssist.Provider.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/generated/source/buildConfig/androidTest/debug/com/cybernetic87/GAssist/test/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/generated/source/buildConfig/androidTest/debug/com/cybernetic87/GAssist/test/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/generated/source/buildConfig/debug/com/cybernetic87/GAssist/BuildConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/generated/source/buildConfig/debug/com/cybernetic87/GAssist/BuildConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/apk_list/debug/apk-list.gson" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/apk_list/debug/apk-list.gson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-as.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-az.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-be.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-bs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-et.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-eu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-gl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-gu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-hy.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-is.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ka.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-kk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-km.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-kn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ky.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-land.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-land.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lo.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ml.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mn.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-mr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ms.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-my.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ne.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-or.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pa.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-si.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sq.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ta.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-te.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-ur.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-uz.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v16.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v17.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v17.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v18.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v18.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v22.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v22.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v23.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v23.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v25.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v25.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v26.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v26.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v28.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-v28.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-w820dp-v13.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/bundle_manifest/debug/bundle-manifest/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/bundle_manifest/debug/bundle-manifest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/bundle_manifest/debug/bundle-manifest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeExtDexDebug/out/classes2.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/dex/debug/mergeLibDexDebug/out/classes_0.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/external_file_lib_dex_archives/debug/out/0_jetified-accessory-v2.6.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/external_file_lib_dex_archives/debug/out/0_jetified-accessory-v2.6.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/external_file_lib_dex_archives/debug/out/1_sdk-v1.0.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/external_file_lib_dex_archives/debug/out/1_sdk-v1.0.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+6LfZqOdVz1qDkG5qq6l1cIXpyY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+Mz68XCjoBrr2fB6mayJKCivbWU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/38__dqeb535+nFI5ge5lLGg9f2M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/64gZDUIXvb7kBVoeUZL0fB9Z8oc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6JjOo4OcSJyVXW9pSDxvXW8397A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7KEIV3RmLzUuX6D0zrkIPXumWZg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8BhtUMNV7msPKAkNOebyRKuR9Cg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8TxFnFMKefc+RRTxG5zTNljt4HM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8j1pXgtckQ+jhNnjCPsVKw+ZMEc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9hJl4IUIAWrhLAxJJdT8jRQ0fsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ap1+N5v64Pl+rd2WxxC+iQYKhSY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B43qWQiGoJLPf24woemsMn+CoJw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CZkXxrrsMHHBf3WnLGZqes0DidY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/CzcrM+cznoWr6zn8BxUtXnyQHrA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FwNu8JoRS8cj_sgKlpuV8NrwWvE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/IG7KWyRbRvTMA_s5aNXEEKqkcAY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Kl3vEoKZWaR24jlsEApo81A++so=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/NKItIHQPVlFr3icQp3BcVpKlqfQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q4SZHsqRkl6MQD5RCa_OutXGyJA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QXaI7Ihmnh9A8F2kwlMUiuSVqfU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Rg_rwXyBUruwyI+IHHtArfSZP0Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RgnHWHETP3EDW0HV+9BEV9X9ntw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TCvynCIwv4lzjouNOPwHIPw_h9U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TXwUy+OgpHk2E61nFwpB4s5N5CE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/U0fi04_lGB_V9BgGI0R449k+DMY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_3nGKiypVwlac80V+9Opfmz1uBk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_XgNmwIQbXlyAj9n_Vbat3ZXozM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_iBzy2xBeqz2G_bEnlJ1VD9YRjw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bSdKSNria05shNyCskwOaVV1HlA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bXfLDqBh3pVuHOE0Wc8RTXBzJtk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cDxFiMoqKzUUriadtvNA6jvUKMU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ceBMWyzpYfp2clSM5Dlo2KD6SwE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/drnXkK4mtv8nMVfkPe+5aC7kek8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fYlQfyNB8vvkf134KbmfkNQdhvM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fZ+4VSUCVCnmi5JMBjd0jcPTRlU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fwuS9RysgXyg7Qc4RIt8Yt8vWa4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gL5wr9WHk0RJhwzWHGlV9eUrm2w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/gPQfsj7m+Rw4n_yVUlwGR3Gakf4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iHzXfZmgUfD8yZwu2kxBnEV7s7I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iK_LqQrgwgsaxrIFOqaZEd_p42I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/iUOoETgAEyOtI73Q2qua8PA7JnU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kOcg0pb2LjvHJ21X68rhXY75PmA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mB5WqHn0Ne+X8MKjppddVPzxJRI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/n7LFl5ZNBHR_Rxven7OphWMMYeg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ny764nkAKeixyY3_OLLz2wrOerI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/pMgI2gc7YpMK2Z9vox4t1vWCvsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/u3XcGP3IsvkZ7AfEcOQSy1mooko=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vA5l5dIusRjHrYWIkr4LvU1ZAcE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/w2OF_tmoPFYqYL1I9SAIqN+y7n8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/w7YQAljJqMZBmmcNsbo+NKWOe74=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xD_aBmBXmwhvGZAuOQOWVQpi+vc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/xo9LYcZXmtlCTcH6GM2Ee5SL8U8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/znfUsmUoJCg8+tx+UlrEuWC0x5M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+6LfZqOdVz1qDkG5qq6l1cIXpyY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+Mz68XCjoBrr2fB6mayJKCivbWU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/38__dqeb535+nFI5ge5lLGg9f2M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/64gZDUIXvb7kBVoeUZL0fB9Z8oc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6JjOo4OcSJyVXW9pSDxvXW8397A=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/7KEIV3RmLzUuX6D0zrkIPXumWZg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8BhtUMNV7msPKAkNOebyRKuR9Cg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8TxFnFMKefc+RRTxG5zTNljt4HM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/8j1pXgtckQ+jhNnjCPsVKw+ZMEc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9hJl4IUIAWrhLAxJJdT8jRQ0fsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Ap1+N5v64Pl+rd2WxxC+iQYKhSY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B43qWQiGoJLPf24woemsMn+CoJw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/CZkXxrrsMHHBf3WnLGZqes0DidY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/CzcrM+cznoWr6zn8BxUtXnyQHrA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/FwNu8JoRS8cj_sgKlpuV8NrwWvE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/IG7KWyRbRvTMA_s5aNXEEKqkcAY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Kl3vEoKZWaR24jlsEApo81A++so=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/NKItIHQPVlFr3icQp3BcVpKlqfQ=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q4SZHsqRkl6MQD5RCa_OutXGyJA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QXaI7Ihmnh9A8F2kwlMUiuSVqfU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Rg_rwXyBUruwyI+IHHtArfSZP0Q=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RgnHWHETP3EDW0HV+9BEV9X9ntw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TCvynCIwv4lzjouNOPwHIPw_h9U=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TXwUy+OgpHk2E61nFwpB4s5N5CE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/U0fi04_lGB_V9BgGI0R449k+DMY=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_3nGKiypVwlac80V+9Opfmz1uBk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_XgNmwIQbXlyAj9n_Vbat3ZXozM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_iBzy2xBeqz2G_bEnlJ1VD9YRjw=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bSdKSNria05shNyCskwOaVV1HlA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/bXfLDqBh3pVuHOE0Wc8RTXBzJtk=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/cDxFiMoqKzUUriadtvNA6jvUKMU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ceBMWyzpYfp2clSM5Dlo2KD6SwE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/drnXkK4mtv8nMVfkPe+5aC7kek8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fYlQfyNB8vvkf134KbmfkNQdhvM=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fZ+4VSUCVCnmi5JMBjd0jcPTRlU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fwuS9RysgXyg7Qc4RIt8Yt8vWa4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/gL5wr9WHk0RJhwzWHGlV9eUrm2w=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/gPQfsj7m+Rw4n_yVUlwGR3Gakf4=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iHzXfZmgUfD8yZwu2kxBnEV7s7I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iK_LqQrgwgsaxrIFOqaZEd_p42I=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/iUOoETgAEyOtI73Q2qua8PA7JnU=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/kOcg0pb2LjvHJ21X68rhXY75PmA=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mB5WqHn0Ne+X8MKjppddVPzxJRI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/n7LFl5ZNBHR_Rxven7OphWMMYeg=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ny764nkAKeixyY3_OLLz2wrOerI=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/pMgI2gc7YpMK2Z9vox4t1vWCvsE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/u3XcGP3IsvkZ7AfEcOQSy1mooko=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vA5l5dIusRjHrYWIkr4LvU1ZAcE=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/w2OF_tmoPFYqYL1I9SAIqN+y7n8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/w7YQAljJqMZBmmcNsbo+NKWOe74=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/xD_aBmBXmwhvGZAuOQOWVQpi+vc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/xo9LYcZXmtlCTcH6GM2Ee5SL8U8=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/znfUsmUoJCg8+tx+UlrEuWC0x5M=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/qzn3_avIt+oK8bQKpxpa1OcoXA8=" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/qzn3_avIt+oK8bQKpxpa1OcoXA8=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/instant_app_manifest/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/instant_app_manifest/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debug/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debugAndroidTest/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/metadata_feature_manifest/debug/metadata-feature/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/metadata_feature_manifest/debug/metadata-feature/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-sw600dp-v13_design_layout_snackbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v11_dialog_footer.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v21_dialog_file_list_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v23_dialog_file_list.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_title_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_cascading_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_abc_tooltip.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_bottom_navigation_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_bottom_sheet_dialog.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_layout_snackbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_layout_tab_icon.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_layout_tab_text.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_menu_item_action_area.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_item_header.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_item_separator.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_menu.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_navigation_menu_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_design_text_input_password_icon.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_dialog_header.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_dialog_main.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_fragment_main.xml.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_mtrl_layout_snackbar_include.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v26_values-v26.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v26_values-v26.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-watch-v21_values-watch-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-watch-v21_values-watch-v21.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/Assistant$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/Assistant$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/Assistant.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/AuthenticateFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/AuthenticateFragment$2.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/AuthenticateFragment$GetCredentialsTask.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/AuthenticateFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/BuildConfig.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/ChooseFileFragment$OnFragmentInteractionListener.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/ChooseFileFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/CredentialManager.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/DeviceConfiguration.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/EmbeddedAssistant$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/EmbeddedAssistant$Builder.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/EmbeddedAssistant$ConversationCallback.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/EmbeddedAssistant$RequestCallback.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/EmbeddedAssistant.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/MainActivity$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/MainActivity.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/MainFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/PermissionsFragment$1.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/PermissionsFragment.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/ProviderService$LocalBinder.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/ProviderService$ServiceConnection.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/ProviderService.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/6/com/cybernetic87/GAssist/Service.dex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grpc/grpc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/grpc/grpc.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +703,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_27" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R58M24P5WHK" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -182,29 +780,80 @@
     <favorites_list name="Consumer" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/local.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle.properties">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="1313">
+              <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3228#3229#0" expanded="true" />
+                <element signature="e#3267#3268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAssist_companion.iml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+              <folding>
+                <element signature="e#2144#2169#0" expanded="true" />
+                <element signature="e#1293#1323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4624">
+              <caret line="329" column="15" selection-start-line="329" selection-start-column="15" selection-end-line="329" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5523#5524#0" expanded="true" />
+                <element signature="e#5553#5554#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-129">
+              <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -217,55 +866,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding>
-                <element signature="e#1116#1134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-manifest" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1479">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="419">
+              <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-658">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
+          <provider selected="true" editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java">
+        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_authenticate.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-760">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="170">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -282,10 +908,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Destro</find>
-      <find>Toast</find>
-      <find>providerService</find>
-      <find>processUnsupportedException</find>
       <find>onServiceConnected</find>
       <find>Bound</find>
       <find>mTextView</find>
@@ -312,6 +934,10 @@
       <find>2.3.2</find>
       <find>IOUtil</find>
       <find>IOUtils</find>
+      <find>mMainActivity</find>
+      <find>onFindPeerAgentResponse</find>
+      <find>mAssistantRequestObserver</find>
+      <find>startService</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\cyber\HelloAccessory_.NET\HelloAccessory\Provider(Tizen)_Consumer(Android)\Consumer</dir>
@@ -322,7 +948,9 @@
     <option name="KEY_STORE_PATH" value="C:\Users\cyber\keystore.jks" />
     <option name="KEY_ALIAS" value="release" />
     <option name="REMEMBER_PASSWORDS" value="true" />
-    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -350,34 +978,34 @@
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFile.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/CallbackInterface.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_authenticate.xml" />
         <option value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/474ce9d1261c8b57ae0a9e37a9ff8082/core-1.0.1/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Main.java" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml" />
         <option value="$PROJECT_DIR$/GAssist.Provider/proguard-rules.pro" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_choose_file.xml" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderActivity.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/navigation/nav_graph.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/grpc/build.gradle" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/build.gradle" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/DeviceConfiguration.java" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Credentials.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/CredentialManager.java" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/xml/accessoryservices.xml" />
         <option value="$PROJECT_DIR$/Consumer.iml" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/xml/accessoryservices.xml" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml" />
+        <option value="$PROJECT_DIR$/grpc/build.gradle" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java" />
         <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java" />
-        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/build.gradle" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml" />
+        <option value="$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java" />
       </list>
     </option>
   </component>
@@ -393,7 +1021,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -419,20 +1049,78 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybernetic87" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="cybernetic87" type="462c0819:PsiDirectoryNode" />
+              <item name="GAssist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="GAssist.Provider" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GAssist_companion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GAssist_companion" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="grpc" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="R58M24P5WHK" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-06-27T17:33:21.782Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-07-17T14:44:46.687Z" />
     <property name="ExportApk.ApkPath" value="C:\Users\cyber\HelloAccessory_.NET\HelloAccessory\Provider(Tizen)_Consumer(Android)\Consumer\GAssist.Provider" />
     <property name="ExportApk.BuildVariants" value="release" />
-    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.recentlyUsedThemes" value="Base.Theme.MaterialComponents.Bridge&#10;Platform.MaterialComponents.Dialog&#10;Theme.MaterialComponents.Dialog.Alert&#10;Theme.MaterialComponents.Dialog&#10;Base.V26.Theme.AppCompat" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML" />
@@ -758,8 +1446,8 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
-      <item itemvalue="Android App.app_SAAgent" />
       <item itemvalue="Android App.app_SAAgentV2" />
+      <item itemvalue="Android App.app_SAAgent" />
       <item itemvalue="Android Instrumented Tests.All Tests" />
       <item itemvalue="Android JUnit.All in GAssist.Provider" />
       <item itemvalue="Android JUnit.All in grpc" />
@@ -814,18 +1502,18 @@
       <window_info id="Build Variants" order="4" sideWeight="0.5046729" side_tool="true" weight="0.30536914" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Resources Explorer" order="6" weight="0.3295302" />
-      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49532712" visible="true" weight="0.28053692" />
+      <window_info content_ui="combo" id="Project" order="7" sideWeight="0.49532712" visible="true" weight="0.24362417" />
       <window_info id="Captures" order="8" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="0" sideWeight="0.49798658" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49597314" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4966443" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.40134227" side_tool="true" weight="0.30736545" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.3979866" side_tool="true" weight="0.1713881" />
       <window_info anchor="bottom" id="Debug" order="5" />
-      <window_info active="true" anchor="bottom" id="Build" order="6" sideWeight="0.60872483" visible="true" weight="0.21954674" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" sideWeight="0.49798658" weight="0.4022663" />
+      <window_info anchor="bottom" id="Build" order="6" sideWeight="0.6020134" weight="0.34844193" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" sideWeight="0.49798658" weight="0.4022663" />
       <window_info anchor="bottom" id="Run" order="8" sideWeight="0.5986577" weight="0.39518413" />
-      <window_info anchor="bottom" x="26" y="251" width="1484" height="322" id="Logcat" order="9" sideWeight="0.64026845" weight="0.3937677" />
+      <window_info active="true" anchor="bottom" x="26" y="251" width="1484" height="322" id="Logcat" order="9" sideWeight="0.64026845" visible="true" weight="0.3937677" />
       <window_info anchor="bottom" id="Inspection Results" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="CheckStyle" order="11" />
       <window_info anchor="right" id="Assistant" order="0" weight="0.3295302" />
@@ -836,7 +1524,8 @@
       <window_info anchor="right" id="Hierarchy" order="5" weight="0.3295302" />
       <window_info anchor="right" id="Preview" order="6" weight="0.3295302" />
       <window_info anchor="right" id="Android WiFi ADB" order="7" />
-      <window_info anchor="right" id="Device File Explorer" order="8" side_tool="true" weight="0.3295302" />
+      <window_info anchor="right" id="Codota" order="8" weight="0.3295302" />
+      <window_info anchor="right" id="Device File Explorer" order="9" side_tool="true" weight="0.3295302" />
     </layout>
     <layout-to-restore>
       <window_info id="Structure" order="0" side_tool="true" />
@@ -880,56 +1569,14 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/message.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/mipmap/ic_x_red.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/mipmap/ic_tick_green.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/mipmap/ic_warning.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/474ce9d1261c8b57ae0a9e37a9ff8082/core-1.0.1/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/474ce9d1261c8b57ae0a9e37a9ff8082/core-1.0.1/AndroidManifest.xml" />
     <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
@@ -951,14 +1598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_authenticate.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_choose_file.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -978,16 +1617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1459">
           <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/GAssist.Provider/libs/accessory-v2.6.1.jar!/com/samsung/android/sdk/accessory/SAAgent.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#35997#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1012,30 +1641,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efc1f889552763f6e4a0ef69752a5936/constraintlayout-2.0.0-beta2/res/values/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="321" column="5" lean-forward="true" selection-start-line="321" selection-start-column="5" selection-end-line="321" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/efc1f889552763f6e4a0ef69752a5936/constraintlayout-2.0.0-beta2/res/values/values.xml" />
     <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/navigation/nav_graph.xml">
+      <provider editor-type-id="nav-designer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
         </state>
       </provider>
-      <provider editor-type-id="nav-designer" />
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/java/lang/Runnable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/GAssist.Provider.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/20030203.000550/506fc1d8e200a9e664d8befb991d407ae551d7fe/commons-io-20030203.000550.jar!/org/apache/commons/io/IOUtil.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1051,41 +1664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="58" column="63" selection-start-line="58" selection-start-column="63" selection-end-line="58" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grpc/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.30.2/500c7f656ed9ce160bfab21868c189f4afe1adfd/google-api-client-1.30.2-sources.jar!/com/google/api/client/googleapis/auth/oauth2/GoogleCredential.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="171" column="13" selection-start-line="171" selection-start-column="13" selection-end-line="171" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1094,26 +1676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="49" column="47" selection-start-line="49" selection-start-column="47" selection-end-line="49" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="410" column="20" selection-start-line="410" selection-start-column="20" selection-end-line="410" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="50" column="57" selection-start-line="50" selection-start-column="57" selection-end-line="50" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1130,41 +1692,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="120" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/xml/accessoryservices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Consumer.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Consumer.iml" />
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist_companion.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
@@ -1174,8 +1709,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist_companion.iml">
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/xml/accessoryservices.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="78" column="36" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GAssist.Provider/libs/accessory-v2.6.1.jar!/com/samsung/android/sdk/accessory/SAAgent.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3791">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GAssist.Provider/libs/accessory-v2.6.1.jar!/com/samsung/android/sdk/accessory/f.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-481">
+          <caret line="52" selection-start-line="52" selection-end-line="64" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GAssist.Provider/libs/accessory-v2.6.1.jar!/com/samsung/android/sdk/accessory/SASocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3980">
+          <caret line="82" column="21" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/build/generated/source/proto/debug/grpc/com/google/assistant/embedded/v1alpha2/EmbeddedAssistantGrpc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="214" column="93" selection-start-line="214" selection-start-column="93" selection-end-line="214" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-29/android.jar!/java/lang/Runnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.22.0/b02ebf53701324070d6b2337300abc43c249e5a/grpc-stub-1.22.0-sources.jar!/io/grpc/stub/StreamObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="77" column="7" selection-start-line="77" selection-start-column="7" selection-end-line="77" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Assistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="95" column="39" selection-start-line="95" selection-start-column="39" selection-end-line="95" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2513#2514#0" expanded="true" />
+            <element signature="e#2588#2589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/GAssist.Provider.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grpc/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="72" column="17" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#1076#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/gradlew">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="126" column="38" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="82" column="17" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4624">
+          <caret line="329" column="15" selection-start-line="329" selection-start-column="15" selection-end-line="329" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5523#5524#0" expanded="true" />
+            <element signature="e#5553#5554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1184,44 +1850,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="419">
+          <caret line="72" column="43" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/EmbeddedAssistant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="66" column="28" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
           <folding>
-            <element signature="e#1116#1134#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/ChooseFileFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-658">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/AuthenticateFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/MainFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1313">
+          <caret line="107" column="43" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_authenticate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_main.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/res/layout/fragment_permissions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <element signature="e#2144#2169#0" expanded="true" />
+            <element signature="e#1293#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GAssist.Provider/src/main/java/com/cybernetic87/GAssist/PermissionsFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="109" column="36" lean-forward="true" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3228#3229#0" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
           </folding>
         </state>
       </provider>

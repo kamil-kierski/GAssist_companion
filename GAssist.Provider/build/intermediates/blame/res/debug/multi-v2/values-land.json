@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\cyber\\repos_new\\GAssist_companion\\GAssist.Provider\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\467bce1c415cbe8d3fd178da979e131b\\material-1.0.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\8005cfb51b99c40e9ed705d998730085\\appcompat-1.1.0-rc01\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,125,196",
+                        "endColumns": "69,70,67",
+                        "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\5626b204df17268cc8c1647a42511124\\material-1.0.0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "8",
                         "endColumns": "10",
                         "endOffsets": "431"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\cyber\\.gradle\\caches\\transforms-2\\files-2.1\\58d719e287541bed22e9d020cd13d67c\\appcompat-1.1.0-rc01\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
                     }
                 }
             ]

@@ -27,4 +27,6 @@
     <string name="error_save_credentials">Error saving credentials</string>
     <string name="device_configured">Device configured</string>
     <string name="failed_configure">Failed to configure device</string>
+    <string name="battery_request">In order to function properly the application needs to be whitelisted in the battery optimization... Click \n
+    check battery to start...</string>
 </resources>

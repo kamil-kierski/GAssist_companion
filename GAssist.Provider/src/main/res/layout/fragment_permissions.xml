@@ -11,11 +11,59 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ImageView
+        android:id="@+id/imageBatteryStatus"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:src="@mipmap/ic_warning"
+        app:layout_constraintEnd_toStartOf="@+id/textViewBatteryStatus"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textViewPermissionStatus"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:text="Permission status unkown"
+        app:layout_constraintBottom_toBottomOf="@+id/imagePermissionStatus"
+        app:layout_constraintStart_toEndOf="@+id/imagePermissionStatus"
+        app:layout_constraintTop_toTopOf="@+id/imagePermissionStatus"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Whitelist battery"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:justificationMode="none"
+        android:text="@string/battery_request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPermissionStatus" />
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="32dp"
         android:gravity="center"
         android:justificationMode="none"
         android:text="@string/hello_blank_fragment"
@@ -49,23 +97,23 @@
         android:id="@+id/imagePermissionStatus"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
         android:src="@mipmap/ic_warning"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
-        android:id="@+id/textViewPermissionStatus"
+        android:id="@+id/textViewBatteryStatus"
         android:layout_width="235dp"
         android:layout_height="30dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
         android:gravity="center_vertical"
-        android:text="Permission status unkown"
-        app:layout_constraintBottom_toBottomOf="@+id/imagePermissionStatus"
-        app:layout_constraintStart_toEndOf="@+id/imagePermissionStatus"
-        app:layout_constraintTop_toTopOf="@+id/imagePermissionStatus"
-        app:layout_constraintVertical_bias="1.0" />
+        android:text="Battery optimization status unknown"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.569"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

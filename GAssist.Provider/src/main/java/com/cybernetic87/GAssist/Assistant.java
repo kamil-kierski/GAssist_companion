@@ -69,16 +69,13 @@ class Assistant {
                 .setConversationCallback(new EmbeddedAssistant.ConversationCallback() {
                     @Override
                     public void onResponseStarted(byte[] response) {
-
                         provider.sendData(response);
-                        super.onResponseStarted(response);
                     }
 
-                    @Override
-                    public void onResponseFinished() {
-                        super.onResponseFinished();
-                    }
-
+//                    @Override
+//                    public void onResponseFinished() {
+//                        super.onResponseFinished();
+//                    }
 
                     @Override
                     public void onError(Throwable throwable) {
@@ -92,7 +89,6 @@ class Assistant {
 
                         provider.sendData(ar.toByteArray());
                         Log.e(TAG, "assist error: " + throwable.getMessage(), throwable);
-                        Log.e(TAG, ar.getDialogStateOut().getSupplementalDisplayText());
                     }
 
 

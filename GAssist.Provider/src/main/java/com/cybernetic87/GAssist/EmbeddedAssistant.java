@@ -19,6 +19,7 @@ package com.cybernetic87.GAssist;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.util.Log;
@@ -40,6 +41,18 @@ import com.google.assistant.embedded.v1alpha2.EmbeddedAssistantGrpc;
 import com.google.assistant.embedded.v1alpha2.ScreenOutConfig;
 import com.google.auth.oauth2.UserCredentials;
 import com.google.type.LatLng;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.safety.Whitelist;
+import org.jsoup.select.Elements;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
@@ -72,10 +85,15 @@ public class EmbeddedAssistant {
                     }
 
 //                    if (value.hasScreenOut()) {
-//                        FileWriter fw = null;
+//                        File file = new File(context.getExternalFilesDir(null), String.format("response_%s.html", new SimpleDateFormat("yyyyMMddHHmmss").format(new Date())));
+//                        Log.e("RESPONSE FILE PATH", file.getAbsolutePath());
 //                        try {
-//                            fw = new FileWriter(Environment.getExternalStorageDirectory() + "/Credentials/response.html");
-//                            fw.write(value.getScreenOut().getData().toStringUtf8());
+//                            FileWriter fw = new FileWriter(file);
+//                            //String safe = Jsoup.clean(value.getScreenOut().getData().toStringUtf8(), Whitelist.relaxed());
+//
+//                            Document doc = Jsoup.parse(value.getScreenOut().getData().toStringUtf8());
+//
+//                            fw.write(doc.html());
 //                            fw.close();
 //                        } catch (IOException e) {
 //                            e.printStackTrace();
@@ -86,10 +104,15 @@ public class EmbeddedAssistant {
 
                 }
 
+                @Override
+                protected void finalize() throws Throwable {
+                    super.finalize();
+                }
 
                 @Override
                 public void onError(final Throwable t) {
                     mConversationHandler.post(() -> {
+                        Log.e("ARO", t.getMessage());
                         stopConversation();
                         mConversationCallback.onError(t);
                     });
@@ -138,9 +161,8 @@ public class EmbeddedAssistant {
      */
     public void startConversation() {
         mConversationHandler.removeCallbacksAndMessages(null);
-        mRequestHandler.post(() -> mRequestCallback.onRequestStart());
+//        mRequestHandler.post(() -> mRequestCallback.onRequestStart());
         mAssistantHandler.post(() -> {
-
             DialogStateIn.Builder dialogStateInBuilder = DialogStateIn.newBuilder();
             getLocation();
             if (mDeviceLocation != null) {
@@ -167,7 +189,10 @@ public class EmbeddedAssistant {
     }
 
     public void stopConversation() {
-        mAssistantRequestObserver = null;
+        if (mAssistantRequestObserver != null) {
+            mAssistantRequestObserver.onCompleted();
+            mAssistantRequestObserver = null;
+        }
         mConversationHandler.removeCallbacksAndMessages(null);
         mConversationHandler.post(() -> mConversationCallback.onConversationFinished());
     }

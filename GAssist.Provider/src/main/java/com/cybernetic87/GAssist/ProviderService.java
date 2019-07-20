@@ -170,6 +170,9 @@ public class ProviderService extends SAAgent {
         } else {
             rejectServiceConnectionRequest(Objects.requireNonNull(peerAgent));
         }
+//        if(mMainActivity != null){
+//            mMainActivity.showBadge(false);
+//        }
     }
 
     @Override
@@ -318,6 +321,9 @@ public class ProviderService extends SAAgent {
             mEmbeddedAssistant.channel.shutdownNow();
             mEmbeddedAssistant.destroy();
 
+//            if(mMainActivity != null){
+//                mMainActivity.showBadge(true);
+//            }
 //            if (mMainActivity != null) {
 //                //mMainActivity.updateTextView("Disconnected");
 //                //mMainActivity.SetStatusIcon(R.mipmap.ic_x_red);
